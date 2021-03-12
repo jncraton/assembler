@@ -57,7 +57,7 @@ It has no access to external memory or I/O.
 Running
 -------
 
-Once the `execute` function has been implemented, the processor can be compiled and tested by invoking:
+The emulator can be compiled and tested by invoking:
 
 ```
 make

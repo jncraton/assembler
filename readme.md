@@ -5,6 +5,16 @@ This project requires the implementation of a very simple processor to execute i
 
 The project extends a previous project to add an assembler and a program written in assembly to calculate Fibonacci numbers.
 
+Assembler Overview
+------------------
+
+An [assembler](https://en.wikipedia.org/wiki/Assembly_language#Assembler) translates assembly language code to machine code. Your task is to update your CPU emulator to include an assembler. In particular, you should be able to convert the included `test-program.asm` to machine code and execute it correctly.
+
+Fibonacci
+---------
+
+Once you have a working assembler, you should create a working assembly language program to calculate the nth Fibonacci number that your emulator is able to execute. More details can be found in the `fibonacci.asm` file. Both files can be assembled, executed, and tested by simply calling `make`.
+
 Instruction Format
 ------------------
 

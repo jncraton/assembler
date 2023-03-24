@@ -65,7 +65,7 @@ This simple processor supports the following operations:
 Assembler Overview
 ------------------
 
-An [assembler](https://en.wikipedia.org/wiki/Assembly_language#Assembler) translates assembly language code to machine code. Your task is to update your CPU emulator to include an assembler by completing the `assembler` function. In particular, you should be able to convert the included `test-program.asm` to machine code and execute it correctly.
+An [assembler](https://en.wikipedia.org/wiki/Assembly_language#Assembler) translates assembly language code to machine code. Your task is to update your CPU emulator to include an complete assembler by completing the `assembler.c` file. There are a few `TODO` comments that must be taken care of. You should be able to convert the included `test-program.asm` to machine code and execute it correctly.
 
 Fibonacci
 ---------

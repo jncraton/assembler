@@ -49,7 +49,7 @@ Operations
 This simple processor supports the following operations:
 
 1. Halt - Stop the processor
-2. LoadImmedate - Store the value in `immediate` to register `dst`.
+2. LoadImmediate - Store the value in `immediate` to register `dst`.
 3. Add - Add the value from register `src` to the value in register `dst` and store the result in `dst`.
 4. AddImmediate - Add the value in `immediate` to register `src` and store the result in register `dst`.
 5. And - Bitwise `and` the value from register `src` to the value in register `dst` and store the result in `dst`.
